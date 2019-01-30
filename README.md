@@ -19,5 +19,11 @@ deploy_mnist_flask/
 |-- static
 |-- templates
 
-Step 3. Make a file named index.html inside the templates directory:
+Step 3. Make a file named index.html inside the templates directory.
+
+Step 4. Create index.js and style.css inside the static directory.
+
+Step 5. copy the “model.h5″ and “model.json” files inside the model folder in the working directory.
+
+Step 6. Create a directory named model and create load.py inside it.
 
