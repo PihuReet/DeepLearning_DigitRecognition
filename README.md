@@ -27,3 +27,4 @@ Step 5. copy the “model.h5″ and “model.json” files inside the model fold
 
 Step 6. Create a directory named model and create load.py inside it.
 
+Step 7. Create app.py and run it using following command: python3 app.py
