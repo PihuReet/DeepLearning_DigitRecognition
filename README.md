@@ -9,3 +9,15 @@ The list of dependencies we will be needing for our project are as follows:
 You can install these all at the same time using the command:
 
 pip3 install tensorflow keras Flask h5py
+
+Step 1. Run DigitRecognition.py using command: python3 DigitRecognition.py
+After this command, training of model will start and it will take some time. And after successful completion you should see “model.h5″ and “model.json”  in the working directory. 
+
+Step 2. Create the basic structure of a flask web application which looks like this:
+$ tree deploy_mnist_flask/
+deploy_mnist_flask/
+|-- static
+|-- templates
+
+Step 3. Make a file named index.html inside the templates directory:
+
